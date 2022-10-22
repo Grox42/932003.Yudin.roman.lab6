@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+div.main {
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+div.buttons {
+	display: flex;
+	flex-direction: rew;
+}
+
+button.button {
+	height: 40px;
+	width: 34%;
+	background: red;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 25px;
+	border: 2px solid Black;
+}
+
+div.pictures {
+	display: flex;
+	flex-direction: row;
+	height: 360px;
+}
+
+div.pictureCat {
+	width: 50%;
+	background: Blue;
+	padding: 20px;
+}
+
+div.pictureDog {
+	width: 50%;
+	background: Green;
+	padding: 20px;
+}
+
+img {
+	height: 260px;
+	width: 100%;
+	max-width: 500px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html onmousedown="initialization('divCat', 'picCat', 'divDog', 'picDog')">
+	<head>
+		<title>Task_6</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="scripts.js"></script>
+	</head>
+	
+	<body>
+		<div class="main">
+			<div class="buttons">
+				<button class="button" onmousedown="openLeft()">Левая кнопка</button>
+				
+				<button class="button" onmousedown="openBoth()">Обе две</button>
+				
+				<button class="button" onmousedown="openRight()">Правая кнопка</button>
+			</div>
+			
+			<div class="pictures">
+				<div id="divCat" class="pictureCat">
+					<img id="picCat" src="./Data/cat.jpg" alt="Cat">
+				</div>
+				
+				<div id="divDog" class="pictureDog">
+					<img id="picDog" src="./Data/dog.jpg" alt="Dog">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
